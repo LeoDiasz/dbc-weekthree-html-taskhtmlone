@@ -1,5 +1,7 @@
 # Exercicio sobre html
 
+
+## Requisitos
 * Criar pagina home
 * Criar pagina sobre
-* Criar pagina
+* Criar pagina contato
