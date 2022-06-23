@@ -4,65 +4,75 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="styles/global.css">
+  <link rel="stylesheet" href="styles/contato.css">
+  
   <title>Contato</title>
 </head>
 <body>
   <header>
-    <div>
-      <img src="assets/panther.png" alt="logo pantera" width="50">
-      <span>Melhores alunos do Vemser de todos os tempos</span>
+    <div class="container">
+      <div class="headerLogo">
+        <img src="assets/panther.png" alt="logo pantera" width="70">
+        <span>Melhores alunos do Vemser de todos os tempos</span>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
     </div>
-    <nav>
-      <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-        <li><a href="contato.html">Contato</a></li>
-      </ul>
-    </nav>
   </header>
-  <section>
-    <form>
-      <div>
-        <label for="nome">Digite seu nome completo</label>
-        <input type="text" name="nome" placeholder="nome completo" required>
-      </div>
-      <br/>
 
-      <div>
-        <label for="email">Digite seu e-mail</label>
-        <input type="email" name="email" placeholder="e-mail">
-      </div>
-      <br/>
-
-      <div>
-        <label for="questao">Qual o motivo do contato</label>
-        <select name="questao" id="questao">
-          <option value="curso">Curso</option>
-          <option value="duvidas">Duvidas</option>
-        </select>
-      </div>
-      <br/>
-
-      <div>
-        <label for="mensagem">Sua mensagem</label>
-        <br>
-        <textarea name="mensagem" id="mensagem" cols="25" rows="8" placeholder="Digite sua mensagem"></textarea>
-      </div>
-      <br/>
-
-      <input type="submit" value="salvar">
+  <section class="contact">
+    <div class="container">
+      <h1>Contato</h1>
       
-    </form>
+      <form>
+        <div class="listInputs">
+          <label for="nome">Digite seu nome completo</label>
+          <input type="text" name="nome" placeholder="nome completo" required>
+        </div>
+
+        <div class="listInputs">
+          <label for="email">Digite seu e-mail</label>
+          <input type="email" name="email" placeholder="e-mail">
+        </div>
+
+        <div class="listInputs">
+          <label for="questao">Qual o motivo do contato</label>
+          <select name="questao" id="questao">
+            <option value="curso">Curso</option>
+            <option value="duvidas">Duvidas</option>
+          </select>
+        </div>
+
+        <div class="listInputs">
+          <label for="mensagem">Sua mensagem</label>
+          <textarea name="mensagem" id="mensagem" cols="25" rows="8" placeholder="Digite sua mensagem"></textarea>
+        </div>
+        
+        <div class="inputSubmit">
+          <input type="submit" value="salvar">
+        </div>
+      </form>
+    </div>
   </section>
   <footer>
-    <nav>
-      <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-        <li><a href="contato.html">Contato</a></li>
-      </ul>
-    </nav>
-    <address>AV.andarai 531 - Porto Alegre</address>
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+      <address>AV.andarai 531 - Porto Alegre</address>
+    </div>
   </footer>
 </body>
 </html>

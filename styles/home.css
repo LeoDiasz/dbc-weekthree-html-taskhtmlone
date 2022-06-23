@@ -1,0 +1,44 @@
+.gallery {
+  padding: 30px 0;
+  text-align: center;
+  
+}
+
+.listCards {
+  padding: 40px 0;
+}
+
+.card {
+  display: inline-block;
+  padding: 20px;
+  margin-right: 50px;
+
+  border: 2px solid #44455f;
+  border-radius: 25px;
+}
+
+.card span {
+  display: block;
+}
+
+
+.mainText {
+  padding: 30px 0;
+
+  text-align: justify;
+  background-color: #44455f;
+  color: #fff;
+}
+
+.mainText div > p {
+  margin-bottom: 10px;
+}
+
+.address {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.address h2 {
+  margin-bottom: 20px;
+}
